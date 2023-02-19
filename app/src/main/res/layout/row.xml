@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="10dp"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/black"
+    android:onClick="onClickopen"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:divider="@color/black">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/image"
+            android:background="@drawable/shape"
+            android:scaleType="centerCrop"
+            android:layout_margin="5dp"></ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="share"
+                android:id="@+id/Share"
+                android:src="@drawable/share"
+                app:tint="@color/white"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Source"
+                android:id="@+id/source"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="italic"
+                android:textAlignment="textEnd"
+
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:id="@+id/title"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:id="@+id/description"></TextView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

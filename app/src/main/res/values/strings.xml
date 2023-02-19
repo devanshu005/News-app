@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">NewsByChoice</string>
+    <string-array name="languages">
+        <item>English-en</item>
+        <item>German-de</item>
+        <item>Arabic-ar</item>
+        <item>Espanol-es</item>
+        <item>Hebrew-he</item>
+        <item>Italian-it</item>
+        <item>French-fr</item>
+        <item>Dutch-nl</item>
+        <item>Portugese-pt</item>
+        <item>Russian-ru</item>
+        <item>Swedish-se</item>
+        <item>Norweign-no</item>
+        <item>Chinese-zh</item>
+
+    </string-array>
+    <string-array name="Categories">
+        <item>general</item>
+        <item>business</item>
+        <item>entertainment</item>
+        <item>health</item>
+        <item>science</item>
+        <item>sports</item>
+        <item>technology</item>
+
+
+    </string-array>
+    <string-array name="Countries">
+        <item>India-in</item>
+        <item>Argentina-ar</item>
+
+        <item>Australia-au</item>
+        <item>UAE-ae</item>
+        <item>Belgium-be</item>
+        <item>Canada-ca</item>
+        <item>China-ch</item>
+        <item>Germany-de</item>
+        <item>Egypt-eg</item>
+        <item>France-fr</item>
+        <item>Great Britain-gb</item>
+        <item>Ireland-ie</item>
+        <item>Israel-il</item>
+        <item>Italy-it</item>
+        <item>Japan-jp</item>
+        <item>South Korea-kr</item>
+        <item>Mexico-mx</item>
+        <item>Netherlands-nl</item>
+        <item>NewZealand-nz</item>
+        <item>Poland-pl</item>
+        <item>Russia-ru</item>
+        <item>SouthAfrica-sa</item>
+        <item>USA-us</item>
+    </string-array>
+</resources>
